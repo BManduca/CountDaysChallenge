@@ -1,0 +1,11 @@
+:root {
+    --green: #21EB00;
+    --gray: #191A18;
+}
+
+* {
+    background: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}

@@ -1,0 +1,82 @@
+body {
+    color: white;
+}
+
+header {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+header strong {
+    color: var(--green);
+    font-size: 48px;
+}
+
+header button {
+    background: var(--green);
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 22px;
+}
+
+main {
+    width: fill;
+    text-align: center;
+    margin: 200px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main strong {
+    color: var(--gray);
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.timeLeft {
+    width: 1000px;
+    margin: 20px 0;
+    display: flex;
+    jusitfy-content: space-evenly;
+    align-items: center;
+}
+
+.timeLeft p {
+    color: var(--green);
+    font-size: 22px;
+    margin: 0;
+}
+
+.timeLeft .time {
+    color: #ffffff;
+    font-size: 130px;
+    margin: 0;
+}
+
+@media (max-width: 1000px) {
+    herder {
+        margin: 0px;
+    }
+
+    main {
+        margin: 40px;
+    }
+
+    .timeLeft {
+        width: 366px;
+        flex-wrap: wrap;
+    }
+
+    .daysLeft .hoursLeft .minutesLeft .secondsLeft {
+        margin: 0 16px 16px;
+    }
+}

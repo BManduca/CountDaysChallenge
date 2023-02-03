@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap">
+        <link rel="stylesheet" href="/public/css/main.css">
+        <link rel="stylesheet" href="/public/css/counter.css">
+        <title>Contador Manduca</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <strong>Contador Manduca</strong>
+                <button id="btnRestart">Reiniciar</button>
+            </header>
+            <main>
+                <strong>Faltam </strong>
+                <div class="timeLeft">
+                    <div class="daysLeft">
+                        <h1 class="time" id="day"> 0 </h1>
+                        <p id="dayWord">Dias</p>
+                    </div>
+                    <div class="hoursLeft">
+                        <h1 class="time" id="hour"> 0 </h1>
+                        <p id="hourWord">Horas</p>
+                    </div>
+                    <div class="minutesLeft">
+                        <h1 class="time" id="minute"> 0 </h1>
+                        <p id="minuteWord">Minutos</p>
+                    </div>
+                    <div class="secondsLeft">
+                        <h1 class="time" id="second"> 0 </h1>
+                        <p id="secondWord">Segundos</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+
+    <script src="./public/scripts/counter.js"></script>
+
+</html>
